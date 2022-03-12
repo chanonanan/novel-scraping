@@ -1,0 +1,28 @@
+{
+  "name": "novel-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanonanan/novel-scraping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanonanan/novel-scraping/issues"
+  },
+  "homepage": "https://github.com/chanonanan/novel-scraping#readme",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^8.0.0",
+    "chromedriver": "^99.0.0",
+    "firebase": "^9.6.8",
+    "firebase-admin": "^10.0.2",
+    "selenium-webdriver": "^4.1.1"
+  }
+}
